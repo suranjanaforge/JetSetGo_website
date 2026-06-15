@@ -1,0 +1,515 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JetSetGo</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<!--Navigation bar-->
+
+<header class="navbar">
+
+    <div class="logo">
+        <img src="images/logo.png" alt="">
+    </div>
+
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Bookings</a></li>
+            <li><a href="#">AI Trip Planner</a></li>
+            <li><a href="#">Wishlist</a></li>
+        </ul>
+    </nav>
+
+    <div class="profile">
+        <img src="images/profile.png" alt="">
+    </div>
+
+</header>
+
+<!-- Hero or the main page load-->
+
+<section class="hero">
+
+    <div class="hero-overlay">
+
+        <div class="hero-content">
+
+            <h1>
+                Your Ultimate Travel Companion for
+                Seamless Adventures
+            </h1>
+
+        </div>
+
+        <!-- Booking Card-->
+
+        <div class="booking-card">
+
+            <div class="service-tabs">
+
+                <div class="tab active">
+                    <i class="fa-solid fa-plane"></i>
+                    <span>Flight</span>
+                </div>
+
+                <div class="tab">
+                    <i class="fa-solid fa-umbrella-beach"></i>
+                    <span>Holiday Package</span>
+                </div>
+
+                <div class="tab">
+                    <i class="fa-solid fa-train"></i>
+                    <span>Trains</span>
+                </div>
+
+                <div class="tab">
+                    <i class="fa-solid fa-route"></i>
+                    <span>AI Trip Planner</span>
+                </div>
+
+                <div class="tab">
+                    <i class="fa-solid fa-bus"></i>
+                    <span>Bus</span>
+                </div>
+
+                <div class="tab">
+                    <i class="fa-solid fa-car"></i>
+                    <span>Cabs</span>
+                </div>
+
+                <div class="tab">
+                    <i class="fa-solid fa-hotel"></i>
+                    <span>Hotels</span>
+                </div>
+
+            </div>
+
+            <div class="trip-type">
+
+                <label>
+                    <input type="radio" checked>
+                    One Way
+                </label>
+
+                <label>
+                    <input type="radio">
+                    Round Trip
+                </label>
+
+                <label>
+                    <input type="radio">
+                    Multi City
+                </label>
+
+            </div>
+
+            <div class="search-box">
+
+                <div class="search-item">
+                    <small>From</small>
+                    <h3>Delhi</h3>
+                    <p>DEL, Delhi Airport India</p>
+                </div>
+
+                <div class="search-item">
+                    <small>To</small>
+                    <h3>Mumbai</h3>
+                    <p>BOM, Chhatrapati Shivaji Int.</p>
+                </div>
+
+                <div class="search-item">
+                    <small>Departure</small>
+                    <h3>19 Jul'24</h3>
+                    <p>Friday</p>
+                </div>
+
+                <div class="search-item">
+                    <small>Return</small>
+                    <h3>26 Jul'24</h3>
+                    <p>Thursday</p>
+                </div>
+
+                <div class="search-item">
+                    <small>Traveller & Class</small>
+                    <h3>1 Traveller</h3>
+                    <p>Economy/Premium Economy</p>
+                </div>
+
+            </div>
+
+            <div class="special-fares">
+
+                <h4>Select a special fare</h4>
+
+                <div class="fare-grid">
+
+                    <div class="fare-item active-fare">
+                        <h5>Regular</h5>
+                        <p>Regular fares</p>
+                    </div>
+
+                    <div class="fare-item">
+                        <h5>Doctor and Nurses</h5>
+                        <p>up to ₹600 off</p>
+                    </div>
+
+                    <div class="fare-item">
+                        <h5>Armed Forces</h5>
+                        <p>up to ₹600 off</p>
+                    </div>
+
+                    <div class="fare-item">
+                        <h5>Student</h5>
+                        <p>Extra discounts</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--Top picks section -->
+
+<section class="top-picks">
+
+    <div class="container">
+
+        <h2>Top Picks for you</h2>
+
+        <div class="cards-row">
+
+            <div class="tour-card">
+
+                <img src="images/rishikesh.jpg">
+
+                <div class="tour-content">
+
+                    <div class="tour-title">
+                        <h3>Rishikesh</h3>
+                        <span>Uttarakhand</span>
+                    </div>
+
+                    <div class="rating">
+                        Rating : 4/5
+                    </div>
+
+                    <div class="price-row">
+                        <div>
+                            <small>From</small>
+                            <h4>₹15,999</h4>
+                        </div>
+
+                        <button>Book Now</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="tour-card">
+                <img src="images/ladakh.jpg">
+                <div class="tour-content">
+                    <h3>Leh-Ladakh</h3>
+                    <span>Jammu & Kashmir</span>
+                    <div class="rating">Rating : 4/5</div>
+                    <div class="price-row">
+                        <h4>₹15,999</h4>
+                        <button>Book Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour-card">
+                <img src="images/manali.jpg">
+                <div class="tour-content">
+                    <h3>Manali</h3>
+                    <span>Himachal Pradesh</span>
+                    <div class="rating">Rating : 4/5</div>
+                    <div class="price-row">
+                        <h4>₹15,999</h4>
+                        <button>Book Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour-card">
+                <img src="images/goa.jpg">
+                <div class="tour-content">
+                    <h3>Goa</h3>
+                    <span>Goa</span>
+                    <div class="rating">Rating : 4/5</div>
+                    <div class="price-row">
+                        <h4>₹15,999</h4>
+                        <button>Book Now</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--Travel Spots-->
+
+<section class="travel-spots">
+
+    <div class="container">
+
+        <h2>Ultimate Travel Spots</h2>
+
+        <div class="spots-row">
+
+            <div class="spot-card">
+                <img src="images/bali.jpg" alt="">
+                <div class="spot-overlay">
+                    <h3>Blissful Bali</h3>
+                    <p>★ 4.2</p>
+                </div>
+            </div>
+
+            <div class="spot-card">
+                <img src="images/kilimanjaro.jpg" alt="">
+                <div class="spot-overlay">
+                    <h3>Majestic Kilimanjaro</h3>
+                    <p>★ 4.7</p>
+                </div>
+            </div>
+
+            <div class="spot-card">
+                <img src="images/reef.jpg" alt="">
+                <div class="spot-overlay">
+                    <h3>Great Barrier Reef</h3>
+                    <p>★ 4.9</p>
+                </div>
+            </div>
+
+            <div class="spot-card">
+                <img src="images/hawaii.jpg" alt="">
+                <div class="spot-overlay">
+                    <h3>Heavenly Hawaii</h3>
+                    <p>★ 4.6</p>
+                </div>
+            </div>
+
+            <div class="spot-card">
+                <img src="images/machu.jpg" alt="">
+                <div class="spot-overlay">
+                    <h3>Machu Picchu</h3>
+                    <p>★ 4.7</p>
+                </div>
+            </div>
+
+            <div class="spot-card">
+                <img src="images/everest.jpg" alt="">
+                <div class="spot-overlay">
+                    <h3>Mount Everest</h3>
+                    <p>★ 4.7</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--Gallery Section-->
+
+<section class="gallery">
+
+    <div class="container">
+
+        <h2>Gallery</h2>
+
+        <div class="gallery-grid">
+
+            <img src="images/gallery1.jpg" alt="">
+            <img src="images/gallery2.jpg" alt="">
+            <img src="images/gallery3.jpg" alt="">
+            <img src="images/gallery4.jpg" alt="">
+
+            <img src="images/gallery5.jpg" alt="">
+            <img src="images/gallery6.jpg" alt="">
+            <img src="images/gallery7.jpg" alt="">
+            <img src="images/gallery8.jpg" alt="">
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--Contact section -->
+
+<section class="contact-section">
+
+    <div class="contact-banner">
+
+        <div class="contact-content">
+
+            <h2>Journey Beyond Boundaries</h2>
+
+            <p>
+                Discover the World's Wonders with Ease and Excitement
+            </p>
+
+        </div>
+
+        <div class="contact-form">
+
+            <h3>Contact us</h3>
+
+            <form>
+
+                <input type="text" placeholder="Name">
+
+                <input type="email" placeholder="E-mail id">
+
+                <input type="text" placeholder="Subject">
+
+                <textarea
+                placeholder="Message"></textarea>
+
+                <label class="checkbox">
+
+                    <input type="checkbox">
+
+                    Subscribe to our newsletter
+
+                </label>
+
+                <button type="submit">
+                    Send
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--Footer of the webpage-->
+
+<footer>
+
+    <div class="footer-container">
+
+        <div class="footer-col">
+
+            <img src="images/logo.png"
+            class="footer-logo">
+
+            <p>
+                India: 1800 890 1234
+            </p>
+
+            <p>
+                Worldwide: +91 987 654 3210
+            </p>
+
+            <p>
+                Email: support@jetsetgo.in
+            </p>
+
+        </div>
+
+        <div class="footer-col">
+
+            <h4>JetSetGo</h4>
+
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Investor Relations</a></li>
+                <li><a href="#">Careers</a></li>
+            </ul>
+
+        </div>
+
+        <div class="footer-col">
+
+            <h4>Product Offering</h4>
+
+            <ul>
+                <li><a href="#">Flights</a></li>
+                <li><a href="#">Hotels</a></li>
+                <li><a href="#">Cabs</a></li>
+                <li><a href="#">Trip Planner</a></li>
+                <li><a href="#">Holiday Packages</a></li>
+                <li><a href="#">Trains</a></li>
+            </ul>
+
+        </div>
+
+        <div class="footer-col">
+
+            <h4>Important Links</h4>
+
+            <ul>
+                <li><a href="#">Flight Status</a></li>
+                <li><a href="#">Flight Offers</a></li>
+                <li><a href="#">Train Status</a></li>
+            </ul>
+
+        </div>
+
+        <div class="footer-col">
+
+            <h4>Quick Links</h4>
+
+            <ul>
+                <li><a href="#">Flights to Delhi</a></li>
+                <li><a href="#">Flights to Chennai</a></li>
+                <li><a href="#">Trains from Howrah</a></li>
+                <li><a href="#">Book Cabs</a></li>
+                <li><a href="#">Hotels in Ooty</a></li>
+            </ul>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2024 JetSetGo Inc.
+            All Rights Reserved
+        </p>
+
+        <div class="footer-links">
+
+            <a href="#">Why JetSetGo?</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Cookie Policy</a>
+
+        </div>
+
+    </div>
+
+</footer>
+
+</body>
+</html>
+
